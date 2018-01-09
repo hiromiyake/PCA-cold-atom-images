@@ -1,2 +1,5 @@
-# PCA-cold-atom-images
-Implement PCA for fringe subtraction from cold atom images
+This folder contains Python files that can be used to subtract unwanted fringes on cold atom absorption images taken with CCD cameras. This was created to be used with cold atom experiments for image analysis, and is based on the technique of principal component analysis. The file is implemented to deal with Igor binarywave files (`.ibw`), but once the file can be loaded into Python, the remainder of the code should work with any input image file format.
+
+1. `coldatomimages_v1.py` is the main program which makes movie rating predictions based on user provided ratings.
+2. `PCAColdAtomImages-Application.ipynb` is a Jupyter notebook demonstrating the usage of `coldatomimages_v1.py` to reduce fringes in absorption images of cold atoms with actual Igor binary wave (`.ibw`) files.
+3. `PCAColdAtomImages-Theory.ipynb` is a Jupyter notebook explaining some of the specific considerations that go into applying principal components analysis to cold atom absorption image analysis.
